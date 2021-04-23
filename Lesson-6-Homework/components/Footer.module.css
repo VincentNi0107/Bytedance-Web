@@ -1,0 +1,39 @@
+.footBar {
+  flex: 0 0 90px;
+  display: flex;
+  color: #fff;
+  font-size: 1.125em;
+  background-color: rgba(61, 100, 158, 0.9);
+ 
+  bottom:0;
+}
+
+
+.song {
+    display: flex;
+    width: 50%;
+    margin-right: auto;
+}
+.word{
+    margin-left: 10px;
+}
+.control {
+    flex: 1 1 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footImage {
+    width: 100px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 64em) {
+    .controlBar {
+        justify-content: space-around;
+    }
+    .footImage {
+        display: none;
+    }
+}
