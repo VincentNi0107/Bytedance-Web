@@ -1,0 +1,16 @@
+
+.main{
+    width: 100%;
+    height:3400px;
+    
+    background-image: url(/body_bg.jpg);
+}
+.head{
+    margin-bottom: 10px;
+    width:100%;
+    float: left;
+}
+.center{
+    margin-left: 300px;
+     
+}

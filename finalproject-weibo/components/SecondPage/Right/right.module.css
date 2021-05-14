@@ -1,0 +1,41 @@
+.tools_wrapper {
+    float: left;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 110px;
+}
+.tools_wrapper hr {
+    border: none;
+    height: .1px;
+    background: #e8e8e8;
+}
+
+.top_fixed {
+    position: fixed;
+    top: 600px;
+    z-index: 20;
+}
+.weibo img {
+    float: left;
+    width:60px; 
+}
+.qq img{
+    float: left;
+    width: 60px;
+    margin-top: -10px; 
+}
+.back img{
+    float: left;
+    width: 60px;
+    visibility:hidden;
+}
+.go_top{
+    float: left;
+    width: 60px;
+    visibility: visible !important;
+}
+.go_top_hid{
+    float: left;
+    width: 60px;
+    visibility:hidden;
+}

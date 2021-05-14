@@ -1,0 +1,105 @@
+.orange_bar{
+    height:2px;
+    width: 100%;
+    background-color:orangered ;
+
+}
+.header {
+    background-color: #ffffff;
+    height: 53px;
+    color: #222;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+.header > div:not(:last-child){
+    float: left;
+}
+
+.header div a {
+    color: #222;
+    cursor: pointer;
+}
+
+.header::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.left_nav {
+    margin-left: 170px;
+    height: 48px;
+    margin-top: 10px;
+}
+.searchBox {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: rgb(241, 239, 239);
+    width: 40%;
+    height: 35px;
+  }
+  .searchIcon img{
+    height: 22px;
+    margin: 15px;
+  }
+ 
+  .searchInput {
+    margin-left: 5px;
+    flex-grow: 1;
+
+    width: 0px;
+    height: 30px;
+    background-color: transparent;
+    outline: none;
+    border: 0;
+    line-height: 30px;
+    font-size: 14px;
+    color: #808080;
+  }
+#left_nav img{
+    height: 30px;
+    margin-top: 10px;
+}
+#left_nav > div {
+    float: left;
+}
+
+#left_nav::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+
+.right_nav {
+    float: right;
+    margin-right: 70px;
+}
+
+.right_nav > div {
+    float: left;
+    padding: 0 10px;
+}
+
+.register {
+    margin-top: 15px;
+    border-right: 1px solid #3a3a3a;
+}
+.login {
+    margin-top: 15px;
+   
+}
+.home{margin-top: 10px;}
+
+.icon{
+    height: 21px;
+    width: 21px;
+    margin-right: 5px;
+
+}
