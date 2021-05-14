@@ -14,12 +14,12 @@ npm run dev
 
     https://weibo.com/ttarticle/p/show?id=2309354634302900994573
 
-    ![origin_webo](.\readme_pic\origin_webo.gif)
+    ![origin_webo](readme_pic\origin_webo.gif)
 
 2. 数据均存在本地，可以在断网的情况下可以正常运行、演示
 
 3. 实现内容：
-    - 首页 ✅
+    - 首页 ✅Cancel changes
 
     - 二级页面 ✅
 
@@ -27,7 +27,7 @@ npm run dev
 
     - 支持**SSR** ✅
 
-      ![my_webo](.\readme_pic\my_webo.gif)
+      ![my_webo](readme_pic\my_webo.gif)
 
 4. 项目中的关键点
     - Next.js(React Framework) ✅
@@ -42,11 +42,11 @@ npm run dev
 
 1. 使用**Next.js**框架进行组件化开发，工程目录如下
 
-    ![catalog](.\readme_pic\catalog.png)
+    ![catalog](readme_pic\catalog.png)
 
     主页在**index.js**中实现，二级页面在**secondpage.js**中实现
 
-    ![pages](.\readme_pic\pages.png)
+    ![pages](readme_pic\pages.png)
 
     两个页面均使用**components**中的组件，其中**Header**由两个组件公用
 
@@ -72,7 +72,7 @@ export const getServerSideProps = async () => {
 }
 ```
 **left.js**发送首页左侧选项栏，**news.js** 发送首页和二级页面的新闻列表，**right.js**发送首页右侧热搜栏，**article.js**发送新闻内容
-![api](.\readme_pic\api.png)
+![api](readme_pic\api.png)
 
 
 
