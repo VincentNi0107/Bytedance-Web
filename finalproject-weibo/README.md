@@ -29,15 +29,6 @@ npm run dev
 
       ![my_webo](./readme_pic/my_webo.gif)
 
-4. 项目中的关键点
-    - Next.js(React Framework) ✅
-    - SSR的基本概念和用法 ✅
-    - 代码管理和组织 ✅
-    - 组件的划分和管理 ✅
-    - 异步操作的处理和状态管理
-    - 项目的构建、打包优化、发布 ✅
-    - 测试 ✅
-
 ## 实现细节
 
 1. 使用**Next.js**框架进行组件化开发，工程目录如下
